@@ -1,9 +1,9 @@
-#School District Analysis
+# School District Analysis
 
-##Overview Of Project
+## Overview Of Project
 The purpose of this project was to prepare standardized test data for analysis, reporting, and presentation to provide insights on performance trends and patterns for a city school district. I analyzed data on student spending and standardized test scores by aggregating the data and showcasing trends in school performance, which can eventually help with budget decisions for the school district. In addition to this there had been evidence of academic dishonesty regarding reading and math grades for Thomas High School ninth graders. Therefore, as an attempt to uphold state-testing standards, I had to omit these dishonest reading and math scores from the analysis while keeping the rest of the data intact.
 
-##Results
+## Results
 - The district summary was affected when changes to the analysis were made to accommodate for dishonest students by a slight decrease average math scores, percentage passing math, percentage passing reading, and overall passing percentage. This can be seen in the before and after data frames displayed below.
 
 
@@ -31,5 +31,5 @@ Results based on school size
 ![school_type](/Resources/school_type.png) 
 Results based on school type
 
-##Summary
+## Summary
 In summary adjusting the analysis for dishonest students by replacing scores for Thomas High School with NaNs did not significantly change the outcomes of that school in terms of where they stood relative to other schools but did slightly decrease passing percentages for the district. Conclusions regarding standardized test scores relative to school spending, size and type were able to be made: schools that spent less had higher overall passing percentages, larger schools had significantly less students passing, and Charter schools had significantly more students passing than District schools.
